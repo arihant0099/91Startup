@@ -1,0 +1,576 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.whatsapp-main {
+    text-align: center;
+    margin: 20px 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 240px;
+}
+
+.header-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    position: sticky;
+    top: 0;
+    background-color: #F0F8FF;
+    z-index: 99;
+}
+
+.logo h1 {
+    margin: 0%;
+    color: blue;
+    font-size: 30px;
+}
+
+.search {
+    flex: 1;
+    margin: 0 20px;
+    padding-left: 180px;
+}
+
+.search .btn-search {
+    width: 340px;
+    padding: 10px;
+    border: 2.5px solid skyblue;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.icons-nav {
+    display: flex;
+    padding-right: 180px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons-nav > div {
+    margin-left: 15px;
+    text-align: center;
+}
+.icons-nav .calling i{
+    font-size: 30px;
+}
+.icons-nav h3 {
+    margin: 2px 0 0;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+.i-section, .trusted-section, .bg-sky{
+    padding: 20px;
+    text-align: center;
+}
+.trusted-section{
+    display: flex;
+    align-items: center;
+    background-color: #13263E;
+    color: white;
+}
+.trusted-logo img{
+    width: 100%;
+}
+.trusted-section .content-trust h1{
+   font-size: 38px;
+}
+.trusted-section .content-trust input{
+    width: 380px;
+    height: 38px;
+    padding-left: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.trusted-section .content-trust span{
+    color: #3999D2;
+}
+.trusted-section .content-trust .trust-btn{
+    margin: 0%;
+    padding-right: 220px;
+    padding-top: 20px;
+}
+.trusted-section .content-trust .trust-btn a button{
+    background-color: #3293D5;
+    padding: 16px;
+    border-radius: 6px;
+    width: 180px;
+
+    font-size: 16px;
+}
+.w-16, .w-50, .w-33 {
+    box-sizing: border-box;
+}
+.i-section .img-i img{
+    width: 140px;
+}
+
+.w-16 {
+    width: 16%;
+    display: inline-block;
+    margin: 10px;
+}
+.w-50i{
+    width: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.w-50 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.w-33 {
+    width: 33%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.bg-sky{
+    background-color: #B8DBEF;
+    height: 100%;
+}
+
+.arrow-btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.arrow-btn .left-btn, .arrow-btn .right-btn {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.consultation{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    width: 76%;
+    height: 420px;
+    margin-top: 120px;
+    margin-left: 13%;   
+    background-color: #59A9D9;
+}
+.consultation h1{
+    font-size: 34px;
+}
+.consultation h2{
+    padding-right: 76px;
+    font-size: 24px;
+}
+.consultation .cons-btn{
+    margin: 0%;
+    padding: 0%;
+    padding-right: 120px;
+    padding-top: 10px;
+}
+.consultation button{
+    padding: 10px;
+    cursor: pointer;
+    color: #59A9D9;
+    font-size: 16px;
+}
+.consultation .white{
+    color: white;
+    font-size: 26px;
+    padding-right: 48px;
+}
+.consultation .center{
+    padding: 7%;
+}
+.consultation .consultation-logo{
+    margin: 0%;
+    padding: 0%;
+}
+.consultation .consultation-logo img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.in-tit h1, .title {
+    font-size: 34px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.incor-section{
+    width: 1170px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid transparent;
+}
+.news-section{
+    width: 1170px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid transparent;
+}
+.news-section .news-items{
+    flex-basis: 32%;
+    padding: 20px 0px;
+    background: white;
+    text-align: center;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+.incor-section .items{
+    flex-basis: 32%;
+    padding: 20px 0px;
+    background: white;
+    text-align: center;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+.incor-section .items img{
+    width: 84px;
+}
+.news-section .news-items img{
+    width: 100%;
+}
+.incor-section .items h3{
+    padding: 10px 0px ;
+    font-size: 25px;
+}
+.news-section .news-items h3{
+    padding: 10px 0px ;
+    font-size: 25px;
+}
+.incor-section .items p{
+    font-size: 16px;
+    padding: 10px;
+}
+.incor-section .items button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #59A9D9;
+    color: white;
+    margin: 10px 0px;
+    font-size: 13px;
+}
+.news-section .news-items button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #59A9D9;
+    color: white;
+    margin: 10px 0px;
+    font-size: 13px;
+}
+
+.carousel {
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    font-size: 36px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Responsive styles */
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 600px) {
+    .header-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .logo h1 {
+        padding-left: 0;
+        font-size: 42px;
+    }
+
+    .search {
+        margin: 10px 0;
+        padding-left: 0;
+        display: none;
+    }
+
+    .icons-nav {
+        justify-content: center;
+        padding-right: 0;
+    }
+    .icons-nav .calling i{
+        font-size: 22px;
+    }
+    .icons-nav .calling-text h3{
+        font-size: 22px;
+    } 
+
+    .icons-nav > div {
+        margin-left: 10px;
+    }
+
+    .i-section .img-i img,.consultation .consultation-logo img{
+        width: 140px;
+    }
+
+    .w-50, .w-50i, .w-33, .w-16, .news-33 {
+        width: 100%;
+    }
+
+    .trusted-section,
+    .bg-sky,
+    .consultation {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .trusted-logo img,
+    .consultation-logo img {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .incor-section,
+    .news-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .incor-section .items,
+    .news-section .news-items {
+        margin: 10px;
+    }
+
+    .search .btn-search {
+        width: 100%;
+    }
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .header-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .search {
+        margin: 10px 0;
+        display: none;
+    }
+
+    .icons-nav {
+        justify-content: center;
+        display: none;
+    }
+
+    .w-50, .w-50i, .w-33, .w-16, .news-33 {
+        width: 100%;
+    }
+
+    .trusted-section,
+    .bg-sky,
+    .consultation {
+        flex-direction: column;
+    }
+
+    .trusted-logo img,
+    .consultation-logo img {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .incor-section,
+    .news-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .incor-section .items,
+    .news-section .news-items {
+        margin: 10px;
+    }
+}
+
+/* Laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .header-section {
+        padding: 15px 20px;
+    }
+
+    .logo h1 {
+        padding-left: 60px;
+        font-size: 26px;
+    }
+
+    .search {
+        padding-left: 90px;
+    }
+
+    .icons-nav {
+        padding-right: 90px;
+    }
+
+    .search .btn-search {
+        width: 300px;
+    }
+
+    .trusted-section .content-trust h1 {
+        font-size: 32px;
+    }
+
+    .trusted-section .content-trust input {
+        width: 300px;
+    }
+
+    .trusted-section .content-trust .trust-btn a button {
+        width: 150px;
+    }
+
+    .consultation {
+        width: 80%;
+        height: 360px;
+        margin-left: 10%;
+    }
+
+    .consultation h1 {
+        font-size: 30px;
+    }
+
+    .consultation h2 {
+        font-size: 20px;
+    }
+
+    .consultation .white {
+        font-size: 22px;
+    }
+
+    .news-section .news-items,
+    .incor-section .items {
+        /* flex-basis: 89%; */
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+/* Desktops and large screens */
+@media only screen and (min-width: 1025px) {
+    .header-section {
+        padding: 20px 10px;
+    }
+
+    .logo h1 {
+        font-size: 34px;
+        padding-left: 40px;
+    }
+
+    .icons-nav {
+        padding: 0%;
+        padding-right: 40px;
+    }
+
+    .search .btn-search {
+        width: 340px;
+    }
+
+    .trusted-section .content-trust h1 {
+        font-size: 38px;
+    }
+
+    .trusted-section .content-trust input {
+        width: 380px;
+    }
+
+    .trusted-section .content-trust .trust-btn a button {
+        width: 180px;
+    }
+
+    .consultation {
+        width: 76%;
+        height: 420px;
+        margin-left: 13%;
+    }
+
+    .consultation h1 {
+        font-size: 34px;
+    }
+
+    .consultation h2 {
+        font-size: 24px;
+    }
+
+    .consultation .white {
+        font-size: 26px;
+    }
+
+    .news-section .news-items,
+    .incor-section .items {
+        flex-basis: 32%;
+    }
+}
